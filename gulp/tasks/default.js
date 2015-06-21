@@ -8,4 +8,4 @@
 
 var gulp = require('gulp');
 
-gulp.task('default', ['sass', 'scripts', 'images', 'watch', 'clean:temp']);
+gulp.task('default', ['sass', 'scripts', 'images', 'browser-sync', 'watch']);

@@ -10,6 +10,7 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
+var browserSync = require('browser-sync');
 
 gulp.task('scripts', function () {
 // to concat an order use: return gulp.src(['file1.js', 'file2.js', 'file3.js'])
@@ -20,5 +21,6 @@ gulp.task('scripts', function () {
     .pipe(gulp.dest('./temp'))
     .pipe(rename('main.js'))
     .pipe(uglify())
-    .pipe(gulp.dest('./release/js'));
+    .pipe(gulp.dest('./release/js'))
+    .pipe(browserSync.reload({stream:true}));
 });
