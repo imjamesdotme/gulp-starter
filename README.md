@@ -1,11 +1,12 @@
 # gulp-starter
-Basic setup for using [Gulp.js](http://gulpjs.com). Gulp tasks include SASS, Javascript, Image Optimization and Watch.
+Basic setup for using [Gulp.js](http://gulpjs.com). Gulp tasks include SASS, Javascript, Image Optimization, Browsersync and Watch.
 
 **Gulp Tasks Included**
 * SASS (Ruby SASS) - Com
 * Javascript (Concat & Minify)
 * Image Minification
 * Watch (Watches for any changes to SASS & JS)
+* Browsersync (Refreshes on changes to SASS, JS & Images)
 * Clean (Cleans out the temp directory)
 
 **Folder Structure** 
