@@ -7,9 +7,10 @@ Basic setup for using [Gulp.js](http://gulpjs.com). Gulp tasks include SASS, Jav
 * Image Minification
 * Watch (Watches for any changes to SASS & JS)
 * Browsersync (Refreshes on changes to SASS, JS & Images)
+* Bower (Downloads Bower dependencies)
 * Clean (Cleans out the temp directory)
 
-**Folder Structure** 
+**Folder Structure**
 
 This is an example folder structer that gulp-starter has been setup to use. You can change the source & output directories by editing the scripts located in `gulp/tasks`.
 
@@ -30,7 +31,7 @@ This is an example folder structer that gulp-starter has been setup to use. You 
   ├── images
   ├── scripts
   ├── styles
-  
+
 ├── gulpfile.js
 ├── package.json  
 ```
