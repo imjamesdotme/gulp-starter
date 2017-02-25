@@ -1,0 +1,23 @@
+# Packages #
+############
+*.zip
+*.codekit
+*.sass-cache
+bower_components
+node_modules/
+
+# Logs and databases #
+######################
+*.log
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+
+# Test folders #
+######################
+temp/
+release/
+src/
